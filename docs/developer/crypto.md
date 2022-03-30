@@ -38,8 +38,11 @@ A recommendation is to look for a AES replacement that provide 128 bits post-qua
 ### **Associated documentation**
 
 [Quantum Security Analysis of AES](https://eprint.iacr.org/2019/272.pdf)
+
 [Critics on AES-256-GCM](https://soatok.blog/2020/05/13/why-aes-gcm-sucks/)
+
 [Security Analysis of ChaCha20-Poly1305 AEAD](https://www.cryptrec.go.jp/exreport/cryptrec-ex-2601-2016.pdf)
+
 
 ## **SHA-256**
 
@@ -54,6 +57,7 @@ It is computationaly cheaper to use a non-quantum algorithm to generate a collis
 No recommendations about SHA-256.
 
 ### **Associated documentation**
+
 [Cost analysis of hash collisions: Will quantum computers make SHARCS obsolete?](https://cr.yp.to/hash/collisioncost-20090823.pdf)
 
 ## **RSA-OAEP**
@@ -72,9 +76,16 @@ Those three algorithms are serious candidates for RSA replacement and the choice
 ### **Associated documentation**
 
 [LMS](https://datatracker.ietf.org/doc/html/rfc8554)
+
 [XMSS](https://datatracker.ietf.org/doc/html/rfc8391)
+
 [Lattice-based cryptography](https://en.wikipedia.org/wiki/Lattice-based_cryptography)
+
 [McEliece](https://ipnpr.jpl.nasa.gov/progress_report2/42-44/44N.PDF)
+
 [Syndrome Decoding Problem](https://en.wikipedia.org/wiki/Decoding_methods#Syndrome_decoding)
+
 [NIST on post-quantum algorithms](https://csrc.nist.gov/Projects/post-quantum-cryptography/round-3-submissions)
+
 [Quantum-Resistant Cryptography](https://arxiv.org/ftp/arxiv/papers/2112/2112.00399.pdf)
+
